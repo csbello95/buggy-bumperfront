@@ -1,0 +1,14 @@
+//@import "~bootstrap/scss/bootstrap";
+.modal-footer {
+    border-top: 0;
+    //justify-content: center;
+
+    .btn-primary {
+      background-color: #cc5226;
+      border: none;
+    }
+    .btn:hover {
+      background-color: black;
+      border: none;
+    } 
+  }

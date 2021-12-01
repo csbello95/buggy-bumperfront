@@ -1,0 +1,161 @@
+img {
+  z-index: 1;
+  height: 45%;
+  margin: auto 1.5rem auto 0;
+}
+
+.admin-login {
+  margin: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+.admin-login:hover {
+  background-color: #cc5227;
+}
+
+.cars {
+  background-color: #232120;
+  padding-bottom: 4rem;
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5rem 0;
+    font-weight: normal;
+  }
+  .cars-container {
+    display: flex;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-title {
+    background-color: #305b1a;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  ul {
+    border: none;
+    font-size: 1.5rem;
+    color: #4c4f4a;
+    list-style: none;
+    width: 100%;
+    li {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    li::before {
+      content: "";
+      border: 6px solid #8ff460;
+      border-radius: 50%;
+      display: inline-block;
+      width: 0.5rem;
+      height: 0.5rem;
+      margin-right: 1rem;
+    }
+  }
+  h5 {
+    text-align: center;
+    font-size: 2rem;
+    color: #cc5227;
+    font-weight: normal;
+  }
+  button {
+    width: 80%;
+    font-size: 1.5rem;
+    background-color: #cc5227;
+    border: none;
+    margin: 1rem 0;
+    border-radius: 8px;
+  }
+  button:hover {
+    background-color: black;
+  }
+  .commercial-info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4rem 0rem 4rem 6rem;
+    height: 100vh;
+    p {
+      color: #fff;
+      font-weight: lighter;
+      font-size: 2.5rem;
+      z-index: 1;
+    }
+    img {
+      z-index: 1;
+      height: 65%;
+      //margin: auto 1.5rem auto 0;
+      //width:170%;
+    }
+    .redshadow {
+      position: absolute;
+      right: 0;
+      top: 5vh;
+      height: 70vh;
+      width: 100%;
+      z-index: 0;
+      width: 120%;
+      transform: skewY(-9deg);
+      background-color: #720707;
+    }
+  }
+}
+.rent-car {
+  h1 {
+    padding: 3rem 0;
+  }
+  p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .selected-car {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem;
+  }
+  form {
+    color: #fff;
+    margin-left: 6rem;
+    width: 60%;
+    font-size: 1.4rem;
+    .form-control{
+      line-height: 3rem;
+      border-radius: 0;
+    }
+    .total-rental {
+      text-align: center;
+      color: #fff;
+      margin:5rem 0;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .rent-button{
+      display: flex;
+      justify-content: center;
+      button{
+        width: 35%;
+      }
+    }
+  }
+}
